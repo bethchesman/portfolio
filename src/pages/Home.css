@@ -1,0 +1,136 @@
+/* Global Styles */
+body, html {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #ffffff; /* Light text color */
+    text-align: center;
+  }
+  
+  /* Full-screen Intro Section */
+  .mountain {
+    position: absolute;
+    top: 15vh; /* Position it at the top of the screen */
+    left: 0vh;
+    width: 100%;
+    height: 80vh; /* Adjust the height of the background */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1; /* Ensure the mountain image is behind other content */
+    background-size: 40% 80vh; /* Stretch the image horizontally */
+  }
+
+  .intro-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .intro-section h1 {
+    font-size: 8rem; /* Large text for your name */
+    font-weight: bold;
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+    letter-spacing: 1px; /* Tighten the letter spacing */
+  }
+  
+  .tagline {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 20px;
+    letter-spacing: 1px;
+  }
+
+
+  .water {
+    position: absolute; /* Positioned relative to the parent container */
+    width: 100%;
+    height: 500px; /* Adjust the height as needed */
+    background-image: url('../assets/water.png'); /* Make sure the path is correct */
+    background-size: contain;
+    background-position: center center;
+    margin-top: -250px;
+    z-index: 1; /* Positioned below the text */
+    background-repeat: repeat-x; /* Ensures the image repeats horizontally */
+    animation: flow 35s linear infinite; /* Animation name and timing */
+    opacity: 0.75;
+  }
+
+  .water-two {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-image: url('../assets/water.png'); 
+    background-size: contain;
+    background-position: center center;
+    background-repeat: repeat-x;
+    margin-top: -250px;
+    animation: flowTwo 40s linear infinite; /* Slightly different speed */
+    opacity: 0.75;
+  }
+
+  @keyframes flow {
+    0% {
+      background-position: 0 0; /* Starting position of the image */
+    }
+    100% {
+        background-position: -200% 0; /* Moves the image horizontally */
+    }
+  }
+
+  @keyframes flowTwo {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+  
+  /* About Me Section */
+  .about-me {
+    background-color: #1e1e1e;
+    padding: 50px 20px;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .about-me h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-me p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  /* Smooth Scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Optional Custom Scrollbars */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #2a2a2a;
+  }
+  

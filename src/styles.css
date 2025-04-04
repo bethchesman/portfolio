@@ -1,19 +1,68 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  nav {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 10px;
-    background: #f4f4f4;
-  }
-  footer {
-    margin-top: 20px;
-    padding: 10px;
-    background: #ddd;
-  }
+
+body{
+  background-color: #2f2f2f; 
+  color: white; 
+  font-family: Tahoma, Geneva, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 40px;
+  background: #2f2f2f; 
+  color: white; 
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+nav a {
+  position: relative;
+  text-decoration: none; 
+  color: white; 
+}
+
+  
+nav a::after {
+  content: ""; 
+  position: absolute;
+  top: -30px; /* Adjust to make the bubble larger vertically */
+  left: -30px; /* Adjust to make the bubble larger horizontally */
+  right: -30px; /* Adjust to make the bubble larger horizontally */
+  bottom: -30px;
+  background-image: url('./assets/aura.png'); /* Path to your bubble image */
+  background-size: contain; /* Ensure the bubble is fully visible */
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0; 
+  transition: opacity 0.3s ease, transform 0.3s ease; 
+  border-radius: 50%; /* Ensures the bubble remains round */
+}
+  
+/* Show the bubble when hovering */
+nav a:hover::after {
+  opacity: 100%;
+  transform: scale(1.2); /* Slight enlargement for a smoother effect */
+}
+
+/* Keep the bubble effect on the active link */
+nav a.active::after {
+  opacity: 70%;
+  background-image: url('./assets/aura.png'); /* Ensure active state keeps the bubble */
+}
+
+nav a:visited {
+  color: white; 
+}
+
+footer {
+   margin-top: 20px;
+  padding: 10px;
+  background: #2f2f2f;
+  color: white; 
+}
+
+
   
