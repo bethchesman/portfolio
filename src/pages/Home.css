@@ -3,7 +3,6 @@ body, html {
     position: relative;
     margin: 0;
     padding: 0;
-    font-family: Tahoma, Geneva, sans-serif;
     color: #ffffff; /* Light text color */
     text-align: center;
   }
@@ -36,13 +35,15 @@ body, html {
     font-size: 8rem; /* Large text for your name */
     font-weight: bold;
     margin: 0;
-    font-family: Tahoma, sans-serif;
-    letter-spacing: 1px; /* Tighten the letter spacing */
+    font-family:fantasy;
+    letter-spacing: 8px; /* Tighten the letter spacing */
   }
   
   .tagline {
     font-size: 1.5rem;
     font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #789479;
     margin-top: 20px;
     letter-spacing: 1px;
   }
@@ -55,7 +56,7 @@ body, html {
     background-image: url('../assets/water.png'); /* Make sure the path is correct */
     background-size: contain;
     background-position: center center;
-    margin-top: -250px;
+    margin-top: -243px;
     z-index: 1; /* Positioned below the text */
     background-repeat: repeat-x; /* Ensures the image repeats horizontally */
     animation: flow 35s linear infinite; /* Animation name and timing */
@@ -70,7 +71,7 @@ body, html {
     background-size: contain;
     background-position: center center;
     background-repeat: repeat-x;
-    margin-top: -250px;
+    margin-top: -243px;
     animation: flowTwo 40s linear infinite; /* Slightly different speed */
     opacity: 0.75;
   }
@@ -94,26 +95,6 @@ body, html {
 }
 
   
-  /* About Me Section */
-  .about-me {
-    background-color: #1e1e1e;
-    padding: 50px 20px;
-    min-height: 100vh;
-    text-align: center;
-  }
-  
-  .about-me h2 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-  }
-  
-  .about-me p {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 10px;
-  }
   
   /* Smooth Scrolling */
   html {

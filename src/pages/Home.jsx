@@ -5,7 +5,7 @@ import mountainImg from '../assets/mountain.png';
 function Home() {
   return (
     <div className="home">
-      {/* Background Mountain */}
+    
       <div 
         className="mountain" 
         style={{ backgroundImage: `url(${mountainImg})` }}
@@ -20,17 +20,12 @@ function Home() {
 
       <div className="water-two"></div>
       
-      <section className="about-me">
-        <h2>About Me</h2>
-        <p>
-          I’m a software developer with a passion for building scalable, performant, and impactful web applications. I specialize in JavaScript frameworks like React and Node.js, and I’m constantly learning new technologies to solve complex problems.
-        </p>
-        <p>
-          When I'm not coding, I enjoy solving puzzles, running, and reading.
-        </p>
-      </section>
+      <div className="right-tree" ></div>
+
+      <div className="left-tree" ></div>
+
     </div>
   );
 }
 
-export default Home; // Ensure this is correct
+export default Home; 

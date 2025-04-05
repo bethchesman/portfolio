@@ -1,0 +1,75 @@
+body, html {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    color: #ffffff; /* Light text color */
+    text-align: center;
+  }
+
+/* About Me Section */
+.about-me {
+    background-color: #789479;
+    color: #2a2a2a;
+    padding: 50px 20px;
+    min-height: 90vh;
+    text-align: center;
+  }
+  
+  .about-me h2 {
+    font-size: 7rem;
+    font-family:fantasy;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  
+  .about-me p {
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .left-tree, .right-tree {
+    position: absolute;
+    height: 100vh;
+    width: 180px; 
+    background-size: 377% 80%;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+
+  .left-tree {
+    left: 0;
+    top: 95vh;
+    background-image: url('../assets/lefttree.png'); 
+    background-position: left center;
+  }
+
+  .right-tree {
+    right: 0;
+    top: 109vh;
+    background-image: url('../assets/righttree.png'); 
+    background-position: right center;
+  }
+  
+  /* Smooth Scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Optional Custom Scrollbars */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #2a2a2a;
+  }
