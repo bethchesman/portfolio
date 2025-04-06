@@ -1,0 +1,24 @@
+body, html {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    color: #ffffff; /* Light text color */
+    text-align: center;
+  }
+
+/* About Me Section */
+.projects {
+    background-color: #2a2a2a;;
+    color: white;
+    padding: 50px 20px;
+    min-height: 90vh;
+    text-align: center;
+  }
+
+  .projects h2 {
+    font-size: 7rem;
+    font-family:fantasy;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }

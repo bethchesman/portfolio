@@ -1,0 +1,16 @@
+body, html {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    color: #ffffff; /* Light text color */
+    text-align: center;
+  }
+
+/* About Me Section */
+.contact {
+    background-color: #2f2f2f;
+    color: white;
+    padding: 50px 20px;
+    min-height: 40vh;
+    text-align: center;
+  }
