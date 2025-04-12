@@ -2,11 +2,10 @@ body, html {
     position: relative;
     margin: 0;
     padding: 0;
-    color: #ffffff; /* Light text color */
+    color: #ffffff; 
     text-align: center;
   }
 
-/* About Me Section */
 .about-me {
     background-color: #789479;
     color: #2a2a2a;
@@ -55,12 +54,10 @@ body, html {
     background-position: right center;
   }
   
-  /* Smooth Scrolling */
   html {
     scroll-behavior: smooth;
   }
   
-  /* Optional Custom Scrollbars */
   ::-webkit-scrollbar {
     width: 8px;
   }

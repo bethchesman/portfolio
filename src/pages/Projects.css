@@ -2,11 +2,10 @@ body, html {
     position: relative;
     margin: 0;
     padding: 0;
-    color: #ffffff; /* Light text color */
+    color: #ffffff;
     text-align: center;
   }
 
-/* About Me Section */
 .projects {
     background-color: #2a2a2a;;
     color: white;
@@ -21,4 +20,26 @@ body, html {
     font-weight: bolder;
     letter-spacing: 1px;
     margin-bottom: 10px;
+  }
+
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 30px; 
+    padding: 20px;
+  }
+  
+  .project-card {
+    background-color: #2f2f2f;
+    border-radius: 12px;
+    padding: 20px;
+    width: 250px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: left;
+  }
+  
+  .project-card.expanded {
+    width: 500px;
+    background-color: #3a3a3a;
   }

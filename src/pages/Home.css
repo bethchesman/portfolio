@@ -1,24 +1,22 @@
-/* Global Styles */
 body, html {
     position: relative;
     margin: 0;
     padding: 0;
-    color: #ffffff; /* Light text color */
+    color: #ffffff; 
     text-align: center;
   }
   
-  /* Full-screen Intro Section */
   .mountain {
     position: absolute;
-    top: 15vh; /* Position it at the top of the screen */
+    top: 15vh; 
     left: 0vh;
     width: 100%;
-    height: 80vh; /* Adjust the height of the background */
+    height: 80vh; 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    z-index: -1; /* Ensure the mountain image is behind other content */
-    background-size: 40% 80vh; /* Stretch the image horizontally */
+    z-index: -1; 
+    background-size: 40% 80vh; 
   }
 
   .intro-section {
@@ -32,11 +30,11 @@ body, html {
   }
   
   .intro-section h1 {
-    font-size: 8rem; /* Large text for your name */
+    font-size: 8rem;
     font-weight: bold;
     margin: 0;
     font-family:fantasy;
-    letter-spacing: 8px; /* Tighten the letter spacing */
+    letter-spacing: 8px; 
   }
   
   .tagline {
@@ -50,16 +48,16 @@ body, html {
 
 
   .water {
-    position: absolute; /* Positioned relative to the parent container */
+    position: absolute; 
     width: 100%;
-    height: 500px; /* Adjust the height as needed */
-    background-image: url('../assets/water.png'); /* Make sure the path is correct */
+    height: 500px;
+    background-image: url('../assets/water.png');
     background-size: contain;
     background-position: center center;
     margin-top: -243px;
-    z-index: 1; /* Positioned below the text */
-    background-repeat: repeat-x; /* Ensures the image repeats horizontally */
-    animation: flow 35s linear infinite; /* Animation name and timing */
+    z-index: 1; 
+    background-repeat: repeat-x; 
+    animation: flow 35s linear infinite;
     opacity: 0.75;
   }
 
@@ -72,16 +70,16 @@ body, html {
     background-position: center center;
     background-repeat: repeat-x;
     margin-top: -243px;
-    animation: flowTwo 40s linear infinite; /* Slightly different speed */
+    animation: flowTwo 40s linear infinite; 
     opacity: 0.75;
   }
 
   @keyframes flow {
     0% {
-      background-position: 0 0; /* Starting position of the image */
+      background-position: 0 0;
     }
     100% {
-        background-position: -200% 0; /* Moves the image horizontally */
+        background-position: -200% 0; 
     }
   }
 
@@ -96,12 +94,10 @@ body, html {
 
   
   
-  /* Smooth Scrolling */
   html {
     scroll-behavior: smooth;
   }
   
-  /* Optional Custom Scrollbars */
   ::-webkit-scrollbar {
     width: 8px;
   }

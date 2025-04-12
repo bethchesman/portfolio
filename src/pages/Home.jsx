@@ -13,7 +13,7 @@ function Home() {
 
       <section className="intro-section">
         <h1>BETH CHESMAN</h1>
-        <p className="tagline">Software Developer | Problem Solver</p>
+        <p className="tagline">Software Developer</p>
       </section>
 
       <div className="water"></div>

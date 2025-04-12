@@ -16,6 +16,7 @@ nav {
   background: #2f2f2f; 
   color: white; 
   font-family: Tahoma, Geneva, sans-serif;
+  font-size: 20px; 
 }
 
 nav a {
@@ -24,33 +25,30 @@ nav a {
   color: white; 
 }
 
-  
 nav a::after {
   content: ""; 
   position: absolute;
-  top: -30px; /* Adjust to make the bubble larger vertically */
-  left: -30px; /* Adjust to make the bubble larger horizontally */
-  right: -30px; /* Adjust to make the bubble larger horizontally */
+  top: -30px; 
+  left: -30px;
+  right: -30px; 
   bottom: -30px;
-  background-image: url('./assets/aura.png'); /* Path to your bubble image */
-  background-size: contain; /* Ensure the bubble is fully visible */
+  background-image: url('./assets/aura.png'); 
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0; 
   transition: opacity 0.3s ease, transform 0.3s ease; 
-  border-radius: 50%; /* Ensures the bubble remains round */
+  border-radius: 50%; 
 }
   
-/* Show the bubble when hovering */
 nav a:hover::after {
   opacity: 100%;
-  transform: scale(1.2); /* Slight enlargement for a smoother effect */
+  transform: scale(1.2); 
 }
 
-/* Keep the bubble effect on the active link */
 nav a.active::after {
   opacity: 70%;
-  background-image: url('./assets/aura.png'); /* Ensure active state keeps the bubble */
+  background-image: url('./assets/aura.png');
 }
 
 nav a:visited {

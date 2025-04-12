@@ -2,15 +2,33 @@ body, html {
     position: relative;
     margin: 0;
     padding: 0;
-    color: #ffffff; /* Light text color */
+    color: #ffffff; 
     text-align: center;
   }
 
-/* About Me Section */
 .contact {
     background-color: #2f2f2f;
     color: white;
-    padding: 50px 20px;
-    min-height: 40vh;
+    padding: 5px 20px;
+    min-height: 10vh;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+    margin-top: 1rem;
+  }
+  
+  .social-links a {
+    color: white; 
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .social-links a:hover {
+    color:#789479; 
+    transform: scale(1.1);
   }
