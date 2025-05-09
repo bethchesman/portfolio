@@ -1,0 +1,112 @@
+body, html {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  color: #ffffff; 
+  text-align: center;
+}
+
+.mountain {
+  position: absolute;
+  top: 15vh; 
+  left: 0vh;
+  width: 100%;
+  height: 80vh; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1; 
+  background-size: 40% 80vh; 
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.intro-section h1 {
+  font-size: 8rem;
+  font-weight: bold;
+  margin: 0;
+  font-family:fantasy;
+  letter-spacing: 8px; 
+}
+
+.tagline {
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #789479;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+
+.water {
+  position: absolute; 
+  width: 100%;
+  height: 500px;
+  background-image: url('../assets/water.png');
+  background-size: contain;
+  background-position: center center;
+  margin-top: -243px;
+  z-index: 1; 
+  background-repeat: repeat-x; 
+  animation: flow 35s linear infinite;
+  opacity: 0.75;
+}
+
+.water-two {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  background-image: url('../assets/water.png'); 
+  background-size: contain;
+  background-position: center center;
+  background-repeat: repeat-x;
+  margin-top: -243px;
+  animation: flowTwo 40s linear infinite; 
+  opacity: 0.75;
+}
+
+@keyframes flow {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+      background-position: -200% 0; 
+  }
+}
+
+@keyframes flowTwo {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+      background-position: -200% 0;
+  }
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2a2a2a;
+}

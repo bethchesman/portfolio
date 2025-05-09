@@ -1,0 +1,67 @@
+
+body{
+  background-color: #2f2f2f; 
+  color: white; 
+  font-family: Tahoma, Geneva, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 40px;
+  background: #2f2f2f; 
+  color: white; 
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 20px; 
+}
+
+nav a {
+  position: relative;
+  text-decoration: none; 
+  color: white; 
+}
+
+nav a::after {
+  content: ""; 
+  position: absolute;
+  top: -30px; 
+  left: -30px;
+  right: -30px; 
+  bottom: -30px;
+  background-image: url('./assets/aura.png'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0; 
+  transition: opacity 0.3s ease, transform 0.3s ease; 
+  border-radius: 50%; 
+}
+  
+nav a:hover::after {
+  opacity: 100%;
+  transform: scale(1.2); 
+}
+
+nav a.active::after {
+  opacity: 70%;
+  background-image: url('./assets/aura.png');
+}
+
+nav a:visited {
+  color: white; 
+}
+
+footer {
+   margin-top: 20px;
+  padding: 10px;
+  background: #2f2f2f;
+  color: white; 
+}
+
+
+
+  

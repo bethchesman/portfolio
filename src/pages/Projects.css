@@ -1,0 +1,57 @@
+.projects {
+  background-color: #2a2a2a;
+  color: white;
+  padding: 40px 60px;
+  min-height: 100vh;
+  max-height: 100vh;
+  text-align: left;
+}
+
+.projects h2 {
+  font-size: 6rem;
+  font-family: fantasy;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 10px;
+}
+
+.project-entry {
+  padding: 20px 0;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.short-description {
+  text-align: center;
+  margin-bottom: -30px;
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #ccc;
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #555;
+  padding: 10px 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.project-title {
+  flex: 1;
+  text-align: left;
+}
+
+.project-year {
+  text-align: right;
+}
+
+.full-description {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  color: #eee;
+  line-height: 1.6;
+}
