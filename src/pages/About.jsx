@@ -10,15 +10,16 @@ function About() {
       <h2>ABOUT ME</h2>
       <p>
         I’m a software developer with a passion for building scalable, performant, and impactful programs. I specialize in Python and SQL, 
-        and I’m constantly learning new technologies to solve problems. 
-        Currently, I'm enhancing my frontend and design skills by making and upgrading this webpage.
+        and I’m constantly learning new technologies to solve problems. Currently, I’m sharpening my frontend and design skills by building 
+        and refining this webpage, while also staying sharp with regular Leetcode practice.
       </p>
       <p>
         I graduated from UBC in April of 2024 and am currently open to work. To reach out, email me! My email is linked at the bottom of the page.
       </p>
       <p>
       When I’m not coding, I like to keep my mind engaged. I enjoy doing puzzles and brain games—like the New York Times Mini Crossword and 
-      Wordle—almost every day. For relaxation, I turn to movies, books, or podcasts, which are my favorite ways to unwind and consume media. 
+      Wordle—almost every day. I also play video games like Minecraft, Fortnite, and Marvel Rivals for fun and they're a great way to stay in 
+      touch with long distance friends. For relaxation, I turn to movies, books, or podcasts, which are my favorite ways to consume media. 
       I also love being active outdoors, whether it’s going for walks, running, or playing soccer.
       </p>
     </div>
