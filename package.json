@@ -2,6 +2,7 @@
     "name": "bethchesman-portfolio",
     "version": "1.0.0",
     "private": true,
+    "homepage": "https://bethchesman.com",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
