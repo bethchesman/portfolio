@@ -6,7 +6,7 @@ const projectData = [
     title: "THIS WEBSITE!",
     year: "2025",
     shortDescription: "React Frontend",
-    fullDescription: "This website is both my portfolio and a chance for me to further develop my frontend skills. I didn't have professional frontend training, so projects like this really help me learn. What you're looking at currently is my first version, which I plan on further improving. My next goal is to add some interactive features.",
+    fullDescription: "This website is both my portfolio and a chance for me to further develop my frontend skills. I didn't have professional frontend training, so projects like this really help me learn. What you're looking at currently is my first version, which I plan on further improving. My next goal is to add some interactive features and make the site compatible with phones.",
   },{
     title: "Video Sharing Site",
     year: "2024",

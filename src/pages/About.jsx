@@ -14,13 +14,14 @@ function About() {
         and refining this webpage, while also staying sharp with regular Leetcode practice.
       </p>
       <p>
-        I graduated from UBC in April of 2024 and am currently open to work. To reach out, email me! My email is linked at the bottom of the page.
+        I graduated from UBC in April of 2024 and am currently open to work. To reach out, email me! My email is linked at the bottom of the page. 
+        Some of my relevant coursework includes: Calculus III, Human-Computer Interaction, Introduction to Artificial Intelligence, Making Predictions
+         with Data, Parallel Computing, Project Management, and Software Engineering.
       </p>
       <p>
-      When I’m not coding, I like to keep my brain busy with puzzles and brain games—I rarely miss a day of the New York Times Mini Crossword or Wordle.
-       I’m also a big fan of video games like Minecraft, Fortnite, and Marvel Rivals. They’re not just fun, they’re one of the best ways I stay 
-       connected with friends who live far away. When I need to unwind, I love diving into a good movie, book, or podcast—those are my favorite
-        ways to relax and take in stories. I also make time to get outside and move everyday, whether it’s a casual walk or a refreshing run—it’s my go-to reset.
+      When I’m not coding, I like to keep my brain busy with books, puzzles, and brain games like Wordle and Sudoku. I’m also a big fan of video 
+      games like Minecraft, Fortnite, and Marvel Rivals. They’re one of the best ways I stay connected with friends who live far away.  
+      Staying active and getting outside is also important to me, so I run and hike a few times a week.
       </p>
     </div>
 
