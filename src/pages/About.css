@@ -16,7 +16,7 @@ body, html {
     padding: 40px;
     margin: 0 auto;
     background-color: #789479;
-    height: 95vh;
+    min-height: 95vh;
   }
 
   .about-me {
@@ -34,7 +34,7 @@ body, html {
   
   .about-me h2 {
     font-size: 7rem;
-    font-family:fantasy;
+    font-family:Impact, fantasy;
     font-weight: bolder;
     letter-spacing: 1px;
     margin-bottom: 10px;

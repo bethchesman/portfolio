@@ -2,14 +2,13 @@
   background-color: #2a2a2a;
   color: white;
   padding: 40px 60px;
-  min-height: 100vh;
-  max-height: 100vh;
+  min-height: 95vh;
   text-align: left;
 }
 
 .projects h2 {
   font-size: 6rem;
-  font-family: fantasy;
+  font-family: Impact, fantasy;
   font-weight: bolder;
   text-align: center;
   margin-bottom: 70px;
